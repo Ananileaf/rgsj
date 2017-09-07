@@ -1,0 +1,5 @@
+﻿  main.cpp
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+generator.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+  sudoku.vcxproj -> D:\ruangongshijian\第二次作业\sudoku\Debug\sudoku.exe
+  sudoku.vcxproj -> D:\ruangongshijian\第二次作业\sudoku\Debug\sudoku.pdb (Partial PDB)
