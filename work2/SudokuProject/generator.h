@@ -20,10 +20,10 @@ public:
 	char put[200];			//输出 
 	int cnt;				//输出时需要使用到的变量
 	generator();
-	generator(int _n);
-	void dfs(int t);
-	void solve(int m);
-	void init();
+	generator(int _n);		
+	void dfs(int t);		//回溯
+	void solve(int m);		//计算
+	void init();			//初始化
 	~generator();
 };
 

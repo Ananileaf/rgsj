@@ -21,16 +21,16 @@ int check(int argc, char *argv[])
 /*
 int main()
 {
-	setI("input");
+	//setI("input");
 	setO("sudoku");
 	int m = 1000000;
-	scanf("%d", &m);
+	//scanf("%d", &m);
 	generator g;
 	g.solve(m);
 	return 0;
-}*/
-
-int main(int argc, char *argv[])
+}
+*/
+int main(int argc, char *argv[])						
 {
 	setO("sudoku");
 	int m = check(argc, argv);
