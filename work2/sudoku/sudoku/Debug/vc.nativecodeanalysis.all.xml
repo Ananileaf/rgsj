@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\ruangongshijian\第二次作业\sudoku\sudoku\</FILEPATH>
+      <FILENAME>generator.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>“i”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“70”行(“d:\ruangongshijian\第二次作业\sudoku\sudoku\generator.cpp”中)的声明。</DESCRIPTION>
+    <FUNCTION>generator::init</FUNCTION>
+    <DECORATED>?init@generator@@QAEXXZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\ruangongshijian\第二次作业\sudoku\sudoku\</FILEPATH>
+        <FILENAME>generator.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\ruangongshijian\第二次作业\sudoku\sudoku\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “freopen”。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\ruangongshijian\第二次作业\sudoku\sudoku\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH />
+  </DEFECT></DEFECTS>

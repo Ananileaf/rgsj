@@ -27,7 +27,7 @@ void generator::dfs(int t)
 	if (t>81)						//输出方案 
 	{
 		if (ans++) puts("");			//两个方案之间有空格 
-		++ans;cnt = 0;				//记录 
+		cnt = 0;				//记录 
 		
 		rep(i, 1, 10) rep(j, 1, 10)
 			put[cnt++] = ways[i][j], ++cnt;	//两个数字之间有空格 

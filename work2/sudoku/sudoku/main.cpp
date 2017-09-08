@@ -18,17 +18,19 @@ int check(int argc, char *argv[])
 	}
 	return m;
 }
+
 /*
 int main()
 {
-	setI("input");
+	//setI("input");
 	setO("sudoku");
 	int m = 1000000;
 	scanf("%d", &m);
 	generator g;
 	g.solve(m);
 	return 0;
-}*/
+}
+*/
 
 int main(int argc, char *argv[])
 {
@@ -40,7 +42,7 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 	else if (m == 0) return 0;
-	
+
 	generator g;
 	g.solve(m);
 	return 0;
