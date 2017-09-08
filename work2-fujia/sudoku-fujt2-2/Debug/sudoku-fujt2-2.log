@@ -1,0 +1,6 @@
+﻿  main.cpp
+  generator.cpp
+d:\ruangongshijian\第二次作业\sudoku-fujt2-2\sudoku-fujt2-2\generator.cpp(129): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  sudoku-fujt2-2.vcxproj -> D:\ruangongshijian\第二次作业\sudoku-fujt2-2\Debug\sudoku-fujt2-2.exe
+  sudoku-fujt2-2.vcxproj -> D:\ruangongshijian\第二次作业\sudoku-fujt2-2\Debug\sudoku-fujt2-2.pdb (Partial PDB)
