@@ -43,8 +43,11 @@ int main(int argc, char *argv[])
 		puts("Error!");
 		return 0;
 	}
-	else if (m == 0) return 0;
-
+	else if (m == 0)
+	{
+		puts("");
+		return 0;
+	}
 	generator g;
 	g.solve(m);
 	return 0;

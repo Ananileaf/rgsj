@@ -49,7 +49,7 @@ void generator::dfs3(int k,int p)
 			cnt = 0;
 			flag = true;
 		}
-		else if (cnt > 100)//缓冲区满了，输出
+		else if (cnt > 199000)//缓冲区满了，输出
 		{
 			puts(put);
 			cnt = 0;
